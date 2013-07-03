@@ -46,7 +46,6 @@ $(document).ready(function() {
         if (questionNumber === allQuestions.length) {
             $("h2").text("You finished the quiz! You scored " + numberCorrect + " points!");
             for (i = 0; i < 4; i++) { $("#a" + i).remove(); }
-            $("")
         } else {
             $("h2").text(allQuestions[questionNumber].question);
             for (i = 0; i < 4; i++) {
