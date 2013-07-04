@@ -52,8 +52,8 @@ $(document).ready(function() {
                 $("#a" + i).html("<input type='radio' name='answer' value='" + i + "'>" + allQuestions[questionNumber].choices[i] + "</input>");
             }
         }
-    }
-    displayQA()
+    };
+    displayQA();
     $("#button").on("click", "#text", function() {
         var userAnswer = +$('input[name=answer]:checked').val();
         var correctAnswer = allQuestions[questionNumber].answer - 1; //Grabbing answer from array and correcting number for 0 offset
