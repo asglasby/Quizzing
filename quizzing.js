@@ -1,9 +1,8 @@
 /**
  * Quizzing: A Simple JS Quiz App
  * User: jabbrass
- * Date: 7/3/13
- * Time: 6:09 AM
- * To change this template use File | Settings | File Templates.
+ * Date: 7/11/13
+ * Time: 9:09 AM
  */
 var allQuestions = [{
         question: "What is the capital of Florida?",
