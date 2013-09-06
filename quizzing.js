@@ -25,9 +25,9 @@ var allQuestions = [{
         answer: 4,
         savedAnswer: null}
     ,{
-        question: "What state is closest to the Pacific ocean?",
+        question: "What state is closest to the Gulf of Mexico?",
         choices: ["Oregon", "Nevada", "Idaho", "Arizona"],
-        answer: 1,
+        answer: 4,
         savedAnswer: null}
     ,{
         question: "Where do the Cowboys play football now?",
